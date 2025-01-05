@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta4xl-common/proprietary/vendor/tee/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000010081 \
     vendor/samsung/gta4xl-common/proprietary/vendor/tee/00000000-0000-0000-0000-000000020081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000020081 \
     vendor/samsung/gta4xl-common/proprietary/vendor/tee/00000000-0000-0000-0000-000048444350:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000048444350 \
-    vendor/samsung/gta4xl-common/proprietary/vendor/tee/00000000-0000-0000-0000-0050524f4341:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-0050524f4341 \
     vendor/samsung/gta4xl-common/proprietary/vendor/tee/00000000-0000-0000-0000-00575644524d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-00575644524d \
     vendor/samsung/gta4xl-common/proprietary/vendor/tee/00000000-0000-0000-0000-42494f535542:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-42494f535542 \
     vendor/samsung/gta4xl-common/proprietary/vendor/tee/00000000-0000-0000-0000-474154454b45:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-474154454b45 \
@@ -77,7 +76,7 @@ PRODUCT_PACKAGES += \
     libSEF.quram \
     libexynoscamera_plugin \
     libsecnativefeature \
-    libsecril-client.exynos9611 \
+    libsecril-client_exynos9611 \
     libsensorlistener \
     libteecl \
     libuniapi \
@@ -93,7 +92,7 @@ PRODUCT_PACKAGES += \
     libkeymaster_helper \
     libskeymaster4device \
     vendor.samsung.hardware.gnss@2.0 \
-    manifest_android.hardware.drm@1.4-service.widevine \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
     android.hardware.drm@1.4-service.widevine \
     vendor.samsung.hardware.gnss@2.0-service \
     tzdaemon \
